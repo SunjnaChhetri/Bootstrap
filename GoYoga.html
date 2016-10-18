@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="logo1.jpg">
   <style>
   body {
       font:20px, sans-serif;
@@ -36,7 +40,7 @@
       background-color: #ffd633 ;
       color: #fff;
       padding: 100px;
-      font-family:  sans-serif;
+      font-family: 'Kaushan Script', cursive;
   }
   .container-fluid {
       padding: 60px;
@@ -111,7 +115,7 @@
       color: #f4511e;
   }
  
-  
+  <!-- Media Query -->
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;
@@ -130,7 +134,7 @@
   </style>
 </head>
 <body id="myPage"  data-spy="scroll" data-target=".navbar" >
-
+<!-- Navigation Bar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -153,7 +157,7 @@
     </div>
   </div>
 </nav>
-
+<!-- Jumbotron -->
 <div class="jumbotron text-center">
   <h1>GoYoga</h1>
   <p>Healthy Way To Live</p>
@@ -170,10 +174,30 @@
       <h2>About GoYoga</h2><br>
       <h4>GoYoga offers over 3,500 professionally-filmed online yoga classes taught by experienced, certified yoga teachers to customers around the world. We believe that yoga should be accessible to everyone and our classes are designed to give you an in-studio experience, at an affordable price, in your own home. Yoga is ultimately the lifelong process of investing in the quality of our condition; our intention is to empower people around the world to engage in this process.</h4><br>
       <p >While our GoYoga customers are from all over the world, we also have a physical studio in Bangalore where all of our videos are filmed. If you live in Bangalore or are visiting, please check the class schedule to join us while filming - we'd love to have you experience some incredible yoga classes taught by some of the best yoga instructors in the world</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <br><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#Modal">Click to check timings</button>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo"></span>
+    </div>
+  </div>
+   <!-- Modal -->
+  <div class="modal fade" id="Modal" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Classes Timings</h4>
+        </div>
+        <div class="modal-body">
+          <p>Saturday 6-8pm</p>
+		   <p>Sunday 5-7pm</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
   </div>
 </div>
@@ -339,17 +363,9 @@
 		  <p style="font-size:20px;"><strong>Yoga helps maintain cholestrol</strong></p>
       </div>
     </div>
-
-   
-    </div>
+	</div>
   </div>
 </div>
-
-
-
-
-
-
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey" >
@@ -379,10 +395,24 @@
     </div>
   </div>
 </div>
-
-
-
-
+<!-- Tab Pane -->
+<div class="tabbable container-fluid bg-grey">
+<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+					<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+				</ul>
+				<div class="tab-inner">
+					<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<h4>Write your feedback to goyogahealthy@gmail.com </h4>
+					</div>
+					<div class="tab-pane" id="tab2">
+					<h4>We highly appreciate for showing your interest in us.Thank You.<h4>
+					</div>
+					</div>
+				</div>
+			</div>
+<!-- Footer -->
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
