@@ -1,433 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <title>Yoga For Life</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!--Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="icon" href="logo1.jpg">
-  <style>
-  body {
-      font:20px, sans-serif;
-      line-height: 1.8;
-      color: #303030;
-	  background-color: lightblue;
-    
-  }
-  h2 {
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #303030;
-      font-weight: 600;
-      margin-bottom: 30px;
-  }
-  h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
-      margin-bottom: 30px;
-  }
-  .jumbotron {
-      background-color: #ffd633 ;
-      color: #fff;
-      padding: 100px;
-      font-family: 'Kaushan Script', cursive;
-  }
-  .container-fluid {
-      padding: 60px;
-	  background-color: #e6fff2;
-  }
-  .bg-grey {
-      background-color: #ABEBC6  ;
-  }
-  .logo-small {
-      color:#ffd633;
-      font-size: 50px;
-  }
-  .logo {
-      color: #99ccff;
-      font-size: 400px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
-  .carousel-control.right, .carousel-control.left {
-      background-image: none;
-      color: #f4511e;
-  }
-  .carousel-indicators li {
-      border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-      background-color: #f4511e;
-  }
-  .item h4 {
-      font-size: 19px;
-      line-height: 1.375em;
-      font-weight: 400;
-      font-style: italic;
-      margin: 70px 0;
-  }
-  .item span {
-      font-style: normal;
-  }
-  
-  .navbar {
-      margin-bottom: 0;
-      background-color: #58D68D;
-      border: 0;
-      font-size: 12px ;
-      line-height: 1.42857143 ;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family:  sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #17202A !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-  }
-  footer .glyphicon {
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: #f4511e;
-  }
- 
-  <!-- Media Query -->
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-     
-    }
-    
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-		}
-    
-    
-  }
 
-  </style>
+    <title>Yoga For Life</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="logo1.jpg">
+    <style>
+    body {
+        font:20px, sans-serif;
+        line-height: 1.8;
+        color: #303030;
+        background-color: lightblue;
+
+    }
+    h2 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #303030;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        color: #303030;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .jumbotron {
+        background-color: #ffd633 ;
+        color: #fff;
+        padding: 100px;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .container-fluid {
+        padding: 60px;
+        background-color: #e6fff2;
+    }
+    .bg-grey {
+        background-color: #ABEBC6  ;
+    }
+    .logo-small {
+        color:#ffd633;
+        font-size: 50px;
+    }
+    .logo {
+        color: #99ccff;
+        font-size: 400px;
+    }
+    .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;
+    }
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none;
+        color: #f4511e;
+    }
+    .carousel-indicators li {
+        border-color: #f4511e;
+    }
+    .carousel-indicators li.active {
+        background-color: #f4511e;
+    }
+    .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+    }
+    .item span {
+        font-style: normal;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+        background-color: #58D68D;
+        border: 0;
+        font-size: 12px ;
+        line-height: 1.42857143 ;
+        letter-spacing: 4px;
+        border-radius: 0;
+        font-family:  sans-serif;
+    }
+    .navbar li a, .navbar .navbar-brand {
+        color: #17202A !important;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #f4511e !important;
+        background-color: #fff !important;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+    }
+    footer .glyphicon {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #f4511e;
+    }
+
+    <!-- Media Query -->
+    @media screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: center;
+
+        }
+
+    }
+    @media screen and (max-width: 480px) {
+        .logo {
+            font-size: 150px;
+        }
+
+
+    }
+
+    </style>
 </head>
 <body id="myPage"  data-spy="scroll" data-target=".navbar" >
-<!-- Navigation Bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#myPage"><img src="logo1.jpg" width="60" height="30" class="img-circle"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#goals">GOALS</a></li>
-        <li><a href="#categories">CATEGORIES</a></li>
-        <li><a href="#login">LOGIN</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-		<li><a href="SignUp.html">SIGNUP</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Jumbotron -->
-<div class="jumbotron text-center">
-  <h1>GoYoga</h1>
-  <p>Healthy Way To Live</p>
-  <form class="form-inline">
-    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-    <button type="button" class="btn btn-danger">Subscribe</button>
-  </form>
-</div>
-
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About GoYoga</h2><br>
-      <h4>GoYoga offers over 3,500 professionally-filmed online yoga classes taught by experienced, certified yoga teachers to customers around the world. We believe that yoga should be accessible to everyone and our classes are designed to give you an in-studio experience, at an affordable price, in your own home. Yoga is ultimately the lifelong process of investing in the quality of our condition; our intention is to empower people around the world to engage in this process.</h4><br>
-      <p >While our GoYoga customers are from all over the world, we also have a physical studio in Bangalore where all of our videos are filmed. If you live in Bangalore or are visiting, please check the class schedule to join us while filming - we'd love to have you experience some incredible yoga classes taught by some of the best yoga instructors in the world</p>
-      <br><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#Modal">Click to check timings</button>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
-    </div>
-  </div>
-   <!-- Modal -->
-  <div class="modal fade" id="Modal" >
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Classes Timings</h4>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage"><img src="logo1.jpg" width="60" height="30" class="img-circle"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#goals">GOALS</a></li>
+                    <li><a href="#categories">CATEGORIES</a></li>
+                    <li><a href="#login">LOGIN</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="SignUp.html">SIGNUP</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="modal-body">
-          <p>Saturday 6-8pm</p>
-		   <p>Sunday 5-7pm</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-eye-open logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission is to spread yoga across the world and make the world healthy and a better environment to live.World free of deseases and fear. Healthy minds and healthy soul.</h4><br>
-      <p><strong>VISION:</strong> to live an inspired life – one in which our true nature of clarity, happiness and peace is cultivated, so that we may experience the challenges of our human lives with an open-hearted ease.   We invite our entire community to discover their own luminous nature through comprehensive yoga instruction – from beginner to advanced – meditation, workshops, immersive retreats, teacher trainings, philosophical study and continuing education.</p>
-	   <br> <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Our Loactions
-		<span class="caret"></span></button>
-	<ul class="dropdown-menu">
-    <li><a href="#">Bangalore</a></li>
-    <li><a href="#">Pune</a></li>
-    <li><a href="#">Delhi</a></li>
-	</ul>
-	</div>
-  </div>
-</div>
-
-<!-- Container (GoalsSection) -->
-<div id="goals" class="container-fluid text-center">
-  <h2>GOALS</h2>
-  <h4>We aim in achieveing</h4>
-  <br>
-  <div class="row ">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>Power</h4>
-      <p>Power to live Healthy</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Love for nature</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>Commitment</h4>
-      <p>commitment to be better each day</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Inspire to go Green</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Certified and highly quaified instructors</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Work harder to achieve perfection</p>
-    </div>
-  </div>
-</div>
-
-<!-- Container (Categories Section) -->
-<div id="categories" class="container-fluid text-center bg-grey">
-  <h2>Categories</h2><br>
-  <h4>categories we excel in</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="yoga1.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Pranayama</strong></p>
-        <p>art of breathing</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="yoga2.jpg" alt="New York" width="400" height="300">
-        <p><strong>Ashtanga Asanas</strong></p>
-		<p>guides you to 8 folded paths of yoga</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="yoga3.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>Surya Namaskar</strong></p>
-        <p>series of poses that leads you to good health</p>
-      </div>
-    </div>
-  </div><br>
-  
-  <h2>What our customers say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h4>"Yoga is the power to drive you to tranquility and peace"<br><span style="font-style:normal;">Ketan Dhingra, Vice President, Mumbai</span></h4>
-      </div>
-      <div class="item">
-        <h4>"One word... SIMPLY MARVELLOUS!"<br><span style="font-style:normal;">Tarun Gandhi, Salesman, Gujarat</span></h4>
-      </div>
-      <div class="item">
-        <h4>"You feel the colors of peace in life"<br><span style="font-style:normal;">Natasha Singh,Senior Manager,Bangalore</span></h4>
-      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1>GoYoga</h1>
+        <p>Healthy Way To Live</p>
+        <form class="form-inline">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <button type="button" class="btn btn-danger">Subscribe</button>
+        </form>
     </div>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" ></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>About GoYoga</h2><br>
+                <h4>GoYoga offers over 3,500 professionally-filmed online yoga classes taught by experienced, certified yoga teachers to customers around the world. We believe that yoga should be
+                    accessible to everyone and our classes are designed to give you an in-studio experience, at an affordable price, in your own home. Yoga is ultimately the lifelong process of
+                    investing in the quality of our condition; our intention is to empower people around the world to engage in this process.</h4><br>
+                    <p >While our GoYoga customers are from all over the world, we also have a physical studio in Bangalore where all of our videos are filmed. If you live in Bangalore or are visiting,
+                        please check the class schedule to join us while filming - we'd love to have you experience some incredible yoga classes taught by some of the best yoga instructors in the world</p>
+                        <br><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#Modal">Click to check timings</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="glyphicon glyphicon-globe logo"></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="Modal" >
+                    <div class="modal-dialog">
 
-<!-- Container (About Section) -->
-<div id="login" class="container-fluid">
-  <div class="row">
-   </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-3">
-      <h2>LOGIN</h2><br>
-	  <form>
-    <input type="email" class="form-control" size="20" placeholder="Email Address" required><br>
-	<br>
-	
-	<input type="password" class="form-control" size="20" placeholder="password" required>
-	<br>
-	<br>
-    <button type="button" class="btn btn-danger">Submit</button>
-  </form>
-      </div>
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-3">
-	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Classes Timings</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Saturday 6-8pm</p>
+                                <p>Sunday 5-7pm</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-       <img src="yoga4.jpg" alt="Paris" width="800" height="1500" class="img-circle" !important> <br><span style="font-style:normal;">
-	    <p style="font-size:20px;"><strong>Yoga gives you peace</strong></p>
-      </div>
-      <div class="item">
-         <img src="yoga5.jpg" alt="Paris" width="800" height="1500" class="img-circle"> <br><span style="font-style:normal;">
-		 <p style="font-size:20px;"><strong>Yoga helps reduce weight</strong></p>
-      </div>
-      <div class="item">
-          <img src="yoga6.jpg" alt="Paris" width="800" height="1500" class="img-circle"> <br><span style="font-style:normal;">
-		  <p style="font-size:20px;"><strong>Yoga helps maintain cholestrol</strong></p>
-      </div>
-    </div>
-	</div>
-  </div>
-</div>
+                    </div>
+                </div>
+            </div>
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey" >
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore, India</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +91 7895905343</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> goyogahealthy@gmail.com</p>
-    </div>
-    <div class="col-sm-7>
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Tab Pane -->
-<div class="tabbable container-fluid bg-grey">
-<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-					<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
-				</ul>
-				<div class="tab-inner">
-					<div class="tab-content">
-					<div class="tab-pane active" id="tab1">
-						<h4>Write your feedback to goyogahealthy@gmail.com </h4>
-					</div>
-					<div class="tab-pane" id="tab2">
-					<h4>We highly appreciate for showing your interest in us.Thank You.<h4>
-					</div>
-					</div>
-				</div>
-			</div>
-<!-- Footer -->
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
- 
-</footer>
+            <div class="container-fluid bg-grey">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <span class="glyphicon glyphicon-eye-open logo slideanim"></span>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Our Values</h2><br>
+                        <h4><strong>MISSION:</strong> Our mission is to spread yoga across the world and make the world healthy and a better environment to live.World free of deseases and fear. Healthy
+                            minds and healthy soul.</h4><br>
+                            <p><strong>VISION:</strong> to live an inspired life – one in which our true nature of clarity, happiness and peace is cultivated, so that we may experience the challenges of our
+                                human lives with an open-hearted ease.   We invite our entire community to discover their own luminous nature through comprehensive yoga instruction – from beginner to advanced –
+                                meditation, workshops, immersive retreats, teacher trainings, philosophical study and continuing education.</p>
+                                <br> <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Our Loactions
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Bangalore</a></li>
+                                        <li><a href="#">Pune</a></li>
+                                        <li><a href="#">Delhi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Container (GoalsSection) -->
+                        <div id="goals" class="container-fluid text-center">
+                            <h2>GOALS</h2>
+                            <h4>We aim in achieveing</h4>
+                            <br>
+                            <div class="row ">
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-off logo-small"></span>
+                                    <h4>Power</h4>
+                                    <p>Power to live Healthy</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-heart logo-small"></span>
+                                    <h4>LOVE</h4>
+                                    <p>Love for nature</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-lock logo-small"></span>
+                                    <h4>Commitment</h4>
+                                    <p>commitment to be better each day</p>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-leaf logo-small"></span>
+                                    <h4>GREEN</h4>
+                                    <p>Inspire to go Green</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-certificate logo-small"></span>
+                                    <h4>CERTIFIED</h4>
+                                    <p>Certified and highly quaified instructors</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-wrench logo-small"></span>
+                                    <h4 style="color:#303030;">HARD WORK</h4>
+                                    <p>Work harder to achieve perfection</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Container (Categories Section) -->
+                        <div id="categories" class="container-fluid text-center bg-grey">
+                            <h2>Categories</h2><br>
+                            <h4>categories we excel in</h4>
+                            <div class="row text-center slideanim">
+                                <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="yoga1.jpg" alt="Paris" width="400" height="300">
+                                        <p><strong>Pranayama</strong></p>
+                                        <p>art of breathing</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="yoga2.jpg" alt="New York" width="400" height="300">
+                                        <p><strong>Ashtanga Asanas</strong></p>
+                                        <p>guides you to 8 folded paths of yoga</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumbnail">
+                                        <img src="yoga3.jpg" alt="San Francisco" width="400" height="300">
+                                        <p><strong>Surya Namaskar</strong></p>
+                                        <p>series of poses that leads you to good health</p>
+                                    </div>
+                                </div>
+                            </div><br>
+
+                            <h2>What our customers say</h2>
+                            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <h4>"Yoga is the power to drive you to tranquility and peace"<br><span style="font-style:normal;">Ketan Dhingra, Vice President, Mumbai</span></h4>
+                                    </div>
+                                    <div class="item">
+                                        <h4>"One word... SIMPLY MARVELLOUS!"<br><span style="font-style:normal;">Tarun Gandhi, Salesman, Gujarat</span></h4>
+                                    </div>
+                                    <div class="item">
+                                        <h4>"You feel the colors of peace in life"<br><span style="font-style:normal;">Natasha Singh,Senior Manager,Bangalore</span></h4>
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" ></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Container (About Section) -->
+                        <div id="login" class="container-fluid">
+                            <div class="row">
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-3">
+                                <h2>LOGIN</h2><br>
+                                <form>
+                                    <input type="email" class="form-control" size="20" placeholder="Email Address" required><br>
+                                    <br>
+
+                                    <input type="password" class="form-control" size="20" placeholder="password" required>
+                                    <br>
+                                    <br>
+                                    <button type="button" class="btn btn-danger">Submit</button>
+                                </form>
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-3">
+                                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="yoga4.jpg" alt="Paris" width="800" height="1500" class="img-circle" !important> <br><span style="font-style:normal;">
+                                                <p style="font-size:20px;"><strong>Yoga gives you peace</strong></p>
+                                            </div>
+                                            <div class="item">
+                                                <img src="yoga5.jpg" alt="Paris" width="800" height="1500" class="img-circle"> <br><span style="font-style:normal;">
+                                                    <p style="font-size:20px;"><strong>Yoga helps reduce weight</strong></p>
+                                                </div>
+                                                <div class="item">
+                                                    <img src="yoga6.jpg" alt="Paris" width="800" height="1500" class="img-circle"> <br><span style="font-style:normal;">
+                                                        <p style="font-size:20px;"><strong>Yoga helps maintain cholestrol</strong></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Container (Contact Section) -->
+                                    <div id="contact" class="container-fluid bg-grey" >
+                                        <h2 class="text-center">CONTACT</h2>
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <p>Contact us and we'll get back to you within 24 hours.</p>
+                                                <p><span class="glyphicon glyphicon-map-marker"></span> Bangalore, India</p>
+                                                <p><span class="glyphicon glyphicon-phone"></span> +91 7895905343</p>
+                                                <p><span class="glyphicon glyphicon-envelope"></span> goyogahealthy@gmail.com</p>
+                                            </div>
+                                            <div class="col-sm-7>
+                                                <div class="row">
+                                                    <div class="col-sm-6 form-group">
+                                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                                    </div>
+                                                    <div class="col-sm-6 form-group">
+                                                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                                    </div>
+                                                </div>
+                                                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                                                <div class="row">
+                                                    <div class="col-sm-12 form-group">
+                                                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Pane -->
+                                    <div class="tabbable container-fluid bg-grey">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                                            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                                        </ul>
+                                        <div class="tab-inner">
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="tab1">
+                                                    <h4>Write your feedback to goyogahealthy@gmail.com </h4>
+                                                </div>
+                                                <div class="tab-pane" id="tab2">
+                                                    <h4>We highly appreciate for showing your interest in us.Thank You.<h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Footer -->
+                                        <footer class="container-fluid text-center">
+                                            <a href="#myPage" title="To Top">
+                                                <span class="glyphicon glyphicon-chevron-up"></span>
+                                            </a>
+
+                                        </footer>
 
 
-</body>
-</html>
-
+                                    </body>
+                                    </html>
